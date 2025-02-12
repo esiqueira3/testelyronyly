@@ -356,6 +356,7 @@ export default (() => {
 							pointer-events="auto"
 						/>
 						<Override slot="Wrapper :closed" width="auto" height="auto" />
+						<Override slot="Popup" onloadShow />
 						<Image
 							src="https://uploads.quarkly.io/679a56009e74900024007521/images/Services.png?v=2025-02-05T12:55:31.772Z"
 							display="block"
