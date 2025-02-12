@@ -76,6 +76,8 @@ export default (() => {
 						href="#sobre"
 						text-decoration-line="initial"
 						color="--dark"
+						mix-blend-mode="normal"
+						cursor="pointer"
 					>
 						SOBRE
 					</Link>
@@ -86,7 +88,7 @@ export default (() => {
 						padding="6px 6px 6px 6px"
 						margin="0px 18px 0px 18px"
 						lg-margin="0px 6px 0px 6px"
-						href="#"
+						href="#servicos"
 					>
 						SERVIÇOS
 					</Link>
@@ -171,13 +173,20 @@ export default (() => {
 					type="link"
 					href="https://wa.link/dms1ju"
 					target="_blank"
+					text-decoration-line="initial"
 				>
-					Fale Conosco
+					Começar Agora
 				</Button>
 			</Box>
 		</Section>
 		<Section padding="28px 0 74px 0" md-padding="28px 0 28px 0" border-color="#ff0000" quarkly-title="Nossos Serviços">
-			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" margin="30px 64px 0px 64px" />
+			<Override
+				slot="SectionContent"
+				flex-direction="row"
+				md-flex-wrap="wrap"
+				margin="30px 64px 0px 64px"
+				id="servicos"
+			/>
 			<Box
 				empty-min-height="64px"
 				empty-border-width="1px"
