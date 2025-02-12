@@ -1469,7 +1469,7 @@ export default (() => {
 									</Box>
 									<Box width="100%" padding="8px 8px 8px 8px">
 										<Box display="flex" flex-direction="column" align-items="flex-start">
-											<Button background="--color-dark" href="mailto:tinello.business@gmail.com?Site Tinello">
+											<Button background="--color-dark" href="mailto:tinello.business@gmail.com?Teste de Envio" type="submit">
 												Enviar
 											</Button>
 										</Box>
