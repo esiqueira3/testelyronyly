@@ -73,7 +73,7 @@ export default (() => {
 						margin="0px 18px 0px 18px"
 						md-margin="0px 18px 10px 18px"
 						lg-margin="0px 6px 0px 6px"
-						href="#"
+						href="#sobre"
 						text-decoration-line="initial"
 						color="--dark"
 					>
@@ -165,7 +165,7 @@ export default (() => {
 				>
 					CONVERSÃO CNH BRASILEIRA PARA CARTA DE CONDUÇÃO PORTUGUESA
 				</Text>
-				<Button margin="30px 0px 0px 0px" text-align="justify">
+				<Button margin="30px 0px 0px 0px" text-align="justify" href="https://wa.link/dms1ju" target="_blank">
 					Saiba Mais
 				</Button>
 			</Box>
@@ -370,7 +370,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" quarkly-title="Fundadora">
-			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
+			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" id="sobre" />
 			<Box
 				width="50%"
 				display="flex"
