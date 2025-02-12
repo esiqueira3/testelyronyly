@@ -15,7 +15,7 @@ export default (() => {
 			<meta property={"og:title"} content={"You choose are great vacation"} />
 			<meta property={"og:description"} content={"Anyone can build a vacation, we build experiences"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/OGimage.png?v=2021-09-23T20:32:10.363Z"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/favicon.png?v=2021-09-23T20:33:18.314Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/679a56009e74900024007521/images/favicon-32x32.png?v=2025-02-12T15:38:22.910Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/32x32.png?v=2021-09-23T20:33:26.450Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/32x32.png?v=2021-09-23T20:33:26.450Z"} />
 			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/32x32.png?v=2021-09-23T20:33:26.450Z"} />

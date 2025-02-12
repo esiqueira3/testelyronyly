@@ -18,7 +18,7 @@ export default (() => {
 			<meta property={"og:title"} content={"You choose are great vacation"} />
 			<meta property={"og:description"} content={"Anyone can build a vacation, we build experiences"} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/OGimage.png?v=2021-09-23T20:32:10.363Z"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/favicon.png?v=2021-09-23T20:33:18.314Z"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/679a56009e74900024007521/images/favicon-32x32.png?v=2025-02-12T15:38:22.910Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/32x32.png?v=2021-09-23T20:33:26.450Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/32x32.png?v=2021-09-23T20:33:26.450Z"} />
 			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/32x32.png?v=2021-09-23T20:33:26.450Z"} />
@@ -1441,7 +1441,7 @@ export default (() => {
 							<Text as="h3" font="normal 600 35px/1.2 --fontFamily-googleManrope" margin="0 0 20px 0" text-align="left">
 								Obrigado pela sua mensagem
 							</Text>
-							<Formspree endpoint="xeqpgrlv">
+							<Formspree endpoint="xeqpgrlv" completeText="Enviado com sucesso!">
 								<Box gap="16px" display="flex" flex-direction="row" flex-wrap="wrap">
 									<Box padding="8px 8px 8px 8px" width="100%">
 										<Box display="flex" flex-direction="column">
@@ -1469,7 +1469,7 @@ export default (() => {
 									</Box>
 									<Box width="100%" padding="8px 8px 8px 8px">
 										<Box display="flex" flex-direction="column" align-items="flex-start">
-											<Button background="--color-dark" href="mailto:tinello.business@gmail.com?Teste de Envio" type="submit" target="_blank">
+											<Button background="--color-dark" href="mailto:tinello.business@gmail.com?Teste de Envio" type="submit">
 												Enviar
 											</Button>
 										</Box>

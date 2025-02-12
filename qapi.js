@@ -28,7 +28,7 @@ export default {
 			"title": "You choose are great vacation",
 			"description": "Anyone can build a vacation, we build experiences",
 			"background_win10": "#0CAD1C",
-			"favicon_32px": "https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/favicon.png?v=2021-09-23T20:33:18.314Z",
+			"favicon_32px": "https://uploads.quarkly.io/679a56009e74900024007521/images/favicon-32x32.png?v=2025-02-12T15:38:22.910Z",
 			"favicon_win10_270px": "https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/270.png?v=2021-09-23T20:33:32.819Z",
 			"og:description": "Anyone can build a vacation, we build experiences",
 			"og:title": "You choose are great vacation",
