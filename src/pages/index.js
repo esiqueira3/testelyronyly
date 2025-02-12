@@ -165,8 +165,14 @@ export default (() => {
 				>
 					CONVERSÃO CNH BRASILEIRA PARA CARTA DE CONDUÇÃO PORTUGUESA
 				</Text>
-				<Button margin="30px 0px 0px 0px" text-align="justify" href="https://wa.link/dms1ju" target="_blank">
-					Saiba Mais
+				<Button
+					margin="30px 0px 0px 0px"
+					text-align="justify"
+					type="link"
+					href="https://wa.link/dms1ju"
+					target="_blank"
+				>
+					Fale Conosco
 				</Button>
 			</Box>
 		</Section>
