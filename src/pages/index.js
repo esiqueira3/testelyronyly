@@ -198,7 +198,7 @@ export default (() => {
 						text-indent="0"
 						text-overflow="clip"
 						hyphens="manual"
-						color="--purple"
+						color="--green"
 						overflow-wrap="normal"
 						word-break="normal"
 						white-space="normal"
@@ -324,10 +324,11 @@ export default (() => {
 						display="flex"
 						align-content="flex-start"
 						animFunction="step-start"
-						onloadShow
+						onloadShow={false}
 						cursor="help"
 						transform="matrix(1,0,0, 1,0,0)"
 						align-self="flex-start"
+						animDuration="0.2s"
 					>
 						<Override slot="Button Open" type="link" height="45px">
 							Nossos Serviços
@@ -339,7 +340,13 @@ export default (() => {
 							flex-direction="column-reverse"
 							justify-content="flex-start"
 						/>
-						<Override slot="Wrapper" height="auto" width="200px" min-width="700px" />
+						<Override
+							slot="Wrapper"
+							height="auto"
+							width="200px"
+							min-width="700px"
+							pointer-events="none"
+						/>
 						<Override
 							slot="Content"
 							display="flex"
