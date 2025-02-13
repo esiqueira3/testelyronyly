@@ -1480,7 +1480,14 @@ export default (() => {
 											<Text margin="0 0 4px 0" font="--base">
 												Nome
 											</Text>
-											<Input max-width="400px" width="100%" name="name" />
+											<Input
+												max-width="400px"
+												width="100%"
+												name="Nome"
+												type="text"
+												placeholder="| Nome"
+												required
+											/>
 										</Box>
 									</Box>
 									<Box width="100%" padding="8px 8px 8px 8px">
@@ -1488,7 +1495,14 @@ export default (() => {
 											<Text font="--base" margin="0 0 4px 0">
 												Email
 											</Text>
-											<Input max-width="400px" width="100%" type="email" name="email" />
+											<Input
+												max-width="400px"
+												width="100%"
+												type="email"
+												name="email"
+												placeholder="| Email"
+												required
+											/>
 										</Box>
 									</Box>
 									<Box padding="8px 8px 8px 8px" width="100%">
@@ -1496,7 +1510,15 @@ export default (() => {
 											<Text font="--base" margin="0 0 4px 0">
 												Mensagem
 											</Text>
-											<Input width="100%" name="message" as="textarea" rows="4" />
+											<Input
+												width="100%"
+												name="message"
+												as="textarea"
+												rows="4"
+												type="text"
+												placeholder="| Mensagem"
+												required
+											/>
 										</Box>
 									</Box>
 									<Box width="100%" padding="8px 8px 8px 8px">
