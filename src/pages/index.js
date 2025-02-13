@@ -172,7 +172,7 @@ export default (() => {
 					margin="30px 0px 0px 0px"
 					text-align="justify"
 					type="link"
-					href="https://wa.link/dms1ju"
+					href="https://wa.link/v88koo"
 					target="_blank"
 					text-decoration-line="initial"
 				>
