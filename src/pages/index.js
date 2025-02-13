@@ -57,7 +57,7 @@ export default (() => {
 				>
 					<Link
 						lg-margin="0px 6px 0px 6px"
-						href="#"
+						href="#home"
 						text-decoration-line="initial"
 						color="--dark"
 						font="normal 6 20px/1.5 --fontFamily-googleOpenSans"
@@ -96,7 +96,7 @@ export default (() => {
 						padding="6px 6px 6px 6px"
 						margin="0px 18px 0px 18px"
 						lg-margin="0px 6px 0px 6px"
-						href="#"
+						href="#contato"
 						text-decoration-line="initial"
 						color="--dark"
 						font="normal 6 20px/1.5 --fontFamily-googleOpenSans"
@@ -120,6 +120,7 @@ export default (() => {
 				flex-direction="row"
 				flex-wrap="no-wrap"
 				background="rgba(0, 0, 0, 0) url() 0% 0% /auto repeat scroll padding-box"
+				id="home"
 			/>
 			<Image
 				max-height="600px"
@@ -757,6 +758,7 @@ export default (() => {
 						margin="10px 0"
 						width="700px"
 						text-align="left"
+						display="flex"
 					>
 						"Deixe a burocracia com e gente e receba sua carta no conforto da sua casa"
 					</Text>
@@ -1335,6 +1337,7 @@ export default (() => {
 			background="linear-gradient(0deg,rgba(25, 30, 34, 0.8) 0%,rgba(25, 30, 34, 0.8) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1547619292-240402b5ae5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)"
 			quarkly-title="Contato"
 		>
+			<Override slot="SectionContent" id="contato" />
 			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
 				<Box padding="16px 16px 16px 16px" width="50%" md-width="100%">
 					<Box>
@@ -1507,7 +1510,7 @@ export default (() => {
 					<Link
 						color="#5a5d64"
 						margin="0px 6px 0px 0px"
-						href="#"
+						href="#home"
 						font="normal 400 18px/1.5 --fontFamily-googleOpenSans"
 						text-decoration-line="initial"
 						hover-color="--darkL1"
@@ -1519,7 +1522,7 @@ export default (() => {
 					</Link>
 					<Link
 						margin="0px 6px 0px 6px"
-						href="#"
+						href="#sobre"
 						font="normal 400 18px/1.5 --fontFamily-googleOpenSans"
 						text-decoration-line="initial"
 						color="#5a5d64"
@@ -1532,7 +1535,7 @@ export default (() => {
 					</Link>
 					<Link
 						margin="0px 6px 0px 6px"
-						href="#"
+						href="#servicos"
 						font="normal 400 18px/1.5 --fontFamily-googleOpenSans"
 						text-decoration-line="initial"
 						color="#5a5d64"
@@ -1545,7 +1548,7 @@ export default (() => {
 					</Link>
 					<Link
 						margin="0px 6px 0px 6px"
-						href="#"
+						href="#contato"
 						font="normal 400 18px/1.5 --fontFamily-googleOpenSans"
 						text-decoration-line="initial"
 						color="#5a5d64"
