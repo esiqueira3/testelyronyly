@@ -27,14 +27,22 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#0CAD1C"} />
 		</Helmet>
 		<Section
-			padding="18px 0 18px 0"
+			padding="5px 0 5px 0"
 			quarkly-title="Header"
-			position="relative"
-			box-shadow="0 0 0 0 #717171"
-			border-color="#6e6d6d"
-			border-width="0 0 3px 0"
+			position="fixed"
+			box-shadow="2 2 2 2 #717171"
+			border-color="#e2e2e2"
+			border-width="0px 0px 1px 0"
+			background="#ffffff"
+			border-style="solid"
 		>
-			<Override slot="SectionContent" justify-content="space-around" flex-direction="row" align-items="center" />
+			<Override
+				slot="SectionContent"
+				justify-content="space-around"
+				flex-direction="row"
+				align-items="center"
+				background="rgba(255, 255, 255, 0)"
+			/>
 			<Image
 				max-height="80px"
 				src="https://uploads.quarkly.io/679a56009e74900024007521/images/Ativo%208@2x.png?v=2025-01-30T13:02:07.987Z"
@@ -48,6 +56,7 @@ export default (() => {
 			<Components.QuarklycommunityKitMobileSidePanel width="50%">
 				<Override slot="Button Text" lg-display="none" />
 				<Override slot="Button Icon" size="32px" />
+				<Override slot="Content" />
 				<Box
 					display="flex"
 					justify-content="flex-end"
@@ -111,8 +120,9 @@ export default (() => {
 			quarkly-title="HeroBlock"
 			display="block"
 			overflow-x="scroll"
-			height="500px"
+			height="600px"
 			background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/679a56009e74900024007521/images/Fundo.jpg?v=2025-01-30T23:41:37.183Z) center/contain repeat scroll padding-box"
+			margin="0 0 0 0"
 		>
 			<Override
 				slot="SectionContent"
@@ -121,9 +131,9 @@ export default (() => {
 				flex-wrap="no-wrap"
 				background="rgba(0, 0, 0, 0) url() 0% 0% /auto repeat scroll padding-box"
 				id="home"
+				margin="80px 64px 0px 64px"
 			/>
 			<Image
-				max-height="600px"
 				object-position="0% 80%"
 				lg-max-height="300px"
 				md-max-height="200px"
@@ -133,8 +143,6 @@ export default (() => {
 				margin="0px 3px 0px 0px"
 				display="flex"
 				overflow="visible"
-				min-width="30px"
-				min-height="30px"
 				srcSet="https://smartuploads.quarkly.io/679a56009e74900024007521/images/img01-capa-home.png?v=2025-01-30T13%3A01%3A32.626Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/img01-capa-home.png?v=2025-01-30T13%3A01%3A32.626Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/img01-capa-home.png?v=2025-01-30T13%3A01%3A32.626Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/img01-capa-home.png?v=2025-01-30T13%3A01%3A32.626Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/img01-capa-home.png?v=2025-01-30T13%3A01%3A32.626Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/img01-capa-home.png?v=2025-01-30T13%3A01%3A32.626Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/img01-capa-home.png?v=2025-01-30T13%3A01%3A32.626Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
@@ -209,7 +217,7 @@ export default (() => {
 					sm-font="normal 700 22px/1.2 &quot;Manrope&quot;, sans-serif"
 					order="-1"
 				>
-					Nossos Serviços{" "}
+					SERVIÇOS{" "}
 					<Span
 						text-indent="0"
 						text-overflow="clip"
@@ -224,7 +232,7 @@ export default (() => {
 						&
 						<br />
 					</Span>
-					Especialidades
+					ESPECIALIDADES
 				</Text>
 				<Image
 					src="https://images.unsplash.com/photo-1600275669283-4bf2bb8a990c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000"
@@ -361,7 +369,7 @@ export default (() => {
 							height="auto"
 							width="200px"
 							min-width="700px"
-							pointer-events="none"
+							pointer-events="auto"
 						/>
 						<Override
 							slot="Content"
@@ -400,14 +408,26 @@ export default (() => {
 				height="404px"
 				flex-wrap="no-wrap"
 			>
+				<Text
+					margin="0px 0px 0px 0px"
+					font="normal 700 50px/1.2 --fontFamily-googleOswald"
+					color="--dark"
+					lg-font="normal 700 28px/1.2 &quot;Manrope&quot;, sans-serif"
+					sm-font="normal 700 22px/1.2 &quot;Manrope&quot;, sans-serif"
+					order="-1"
+				>
+					SOBRE{" "}
+				</Text>
 				<Image
 					max-width="340px"
 					src="https://uploads.quarkly.io/679a56009e74900024007521/images/image%2052.png?v=2025-02-02T19:54:13.851Z"
 					md-margin="0px 0px 20px 0px"
+					align-self="flex-start"
+					margin="45px 0px 0px 30px"
 					srcSet="https://smartuploads.quarkly.io/679a56009e74900024007521/images/image%2052.png?v=2025-02-02T19%3A54%3A13.851Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/image%2052.png?v=2025-02-02T19%3A54%3A13.851Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/image%2052.png?v=2025-02-02T19%3A54%3A13.851Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/image%2052.png?v=2025-02-02T19%3A54%3A13.851Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/image%2052.png?v=2025-02-02T19%3A54%3A13.851Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/image%2052.png?v=2025-02-02T19%3A54%3A13.851Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/679a56009e74900024007521/images/image%2052.png?v=2025-02-02T19%3A54%3A13.851Z&quality=85&w=3200 3200w"
 					sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL2" font="--base">
+				<Text margin="15PX 0px 0px 0px" color="--darkL2" font="--base">
 					CEO Patrícia Tinello
 				</Text>
 			</Box>
